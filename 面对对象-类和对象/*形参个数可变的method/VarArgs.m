@@ -11,13 +11,19 @@
 @implementation VarArgs
 - (void) argsTest:(NSString *)name, ...
 {
+    // va_list 是一个类型
+    // va_start是一个函数
+    // va_arg函数 该函数返回获取当前指针指向的参数的值，并将指针移动到下一个参数
+    // va_end 结束处理可变参 释放指针变量
     // 使用va_list 定义一个argList指针变量，该指针变量指向可变参数列表
+
     va_list argList;
     //首先判断name是否存在
     if (name) {
         //存在就处理name这个形参
         NSLog(@"%@",name);
         //让argList 指向第一个可变参数列表中的第一个参数，开始提取可变参数列表的参数
+
         va_start(argList, name);
         // va_arg 用于提取argList指针当前指向的参数，并将指针移动到下一个参数
         // arg 变量用于保存当前获取的参数,如果参数不为nil，则进入循环体
