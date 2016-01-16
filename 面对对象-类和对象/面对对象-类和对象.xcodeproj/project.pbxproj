@@ -13,6 +13,7 @@
 		040D46A61C4A1AB40034F413 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 040D46A51C4A1AB40034F413 /* main.m */; };
 		040D46B01C4A1C5F0034F413 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 040D46AF1C4A1C5F0034F413 /* Dog.m */; };
 		040D46B81C4A1F600034F413 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 040D46B71C4A1F600034F413 /* main.m */; };
+		040D46BE1C4A1F8E0034F413 /* VarArgs.m in Sources */ = {isa = PBXBuildFile; fileRef = 040D46BD1C4A1F8E0034F413 /* VarArgs.m */; };
 		04B55F3B1C4916BA004FEFE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B55F3A1C4916BA004FEFE5 /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -77,6 +78,8 @@
 		040D46AF1C4A1C5F0034F413 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 		040D46B51C4A1F600034F413 /* *形参个数可变的method */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "*形参个数可变的method"; sourceTree = BUILT_PRODUCTS_DIR; };
 		040D46B71C4A1F600034F413 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		040D46BC1C4A1F8E0034F413 /* VarArgs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VarArgs.h; sourceTree = "<group>"; };
+		040D46BD1C4A1F8E0034F413 /* VarArgs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VarArgs.m; sourceTree = "<group>"; };
 		04B55F371C4916BA004FEFE5 /* 面对对象-类和对象 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "面对对象-类和对象"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B55F3A1C4916BA004FEFE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -151,6 +154,8 @@
 		040D46B61C4A1F600034F413 /* *形参个数可变的method */ = {
 			isa = PBXGroup;
 			children = (
+				040D46BC1C4A1F8E0034F413 /* VarArgs.h */,
+				040D46BD1C4A1F8E0034F413 /* VarArgs.m */,
 				040D46B71C4A1F600034F413 /* main.m */,
 			);
 			path = "*形参个数可变的method";
@@ -354,6 +359,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				040D46BE1C4A1F8E0034F413 /* VarArgs.m in Sources */,
 				040D46B81C4A1F600034F413 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
