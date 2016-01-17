@@ -14,6 +14,7 @@ int main(int argc, const char * argv[]) {
         // 比较像C的无参  Java空参构造函数一样  所有整型初始化为0  浮点0.0 Bool No  指针对象 nil
         //所以我们可以提供自己的init方法(重写父类init方法)
         Cat *c = [[Cat alloc]init];
+        NSLog(@"name=%@ , age =%d , food =%@ ",c.name,c.age,c.food);
         
     }
     return 0;
