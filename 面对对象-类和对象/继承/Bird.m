@@ -9,6 +9,7 @@
 #import "Bird.h"
 
 @implementation Bird
+int b;
 - (void) fly
 {
     NSLog(@"鸟不是应该会飞吗？");

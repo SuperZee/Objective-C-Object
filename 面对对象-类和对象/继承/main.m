@@ -22,6 +22,8 @@ int main(int argc, const char * argv[]) {
         Ostrich *o = [[Ostrich alloc]init];
         // 鸵鸟重写的父类 fly方法
         [o fly];
+        // 鸵鸟访问 父类的fly方法
+        [o callOverridedFly];
     }
     return 0;
 }

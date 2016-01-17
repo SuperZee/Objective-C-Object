@@ -9,5 +9,9 @@
 #import <Foundation/Foundation.h>
 
 @interface Bird : NSObject
+{
+    @private
+    int a;
+}
 - (void) fly;
 @end
