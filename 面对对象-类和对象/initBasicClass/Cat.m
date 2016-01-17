@@ -22,6 +22,6 @@
         self.food = @"鱼";
     }
 
-    return [super init];
+    return self;
 }
 @end

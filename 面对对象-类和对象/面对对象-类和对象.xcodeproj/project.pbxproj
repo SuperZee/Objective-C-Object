@@ -37,6 +37,7 @@
 		044977D51C4B2FF30026C119 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 044977D41C4B2FF30026C119 /* main.m */; };
 		044977DB1C4B30D10026C119 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 044977DA1C4B30D10026C119 /* Animal.m */; };
 		044977DE1C4B30DA0026C119 /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = 044977DD1C4B30DA0026C119 /* Cat.m */; };
+		044977E11C4B33760026C119 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 044977E01C4B33760026C119 /* Dog.m */; };
 		04B55F3B1C4916BA004FEFE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B55F3A1C4916BA004FEFE5 /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -251,6 +252,8 @@
 		044977DA1C4B30D10026C119 /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
 		044977DC1C4B30DA0026C119 /* Cat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
 		044977DD1C4B30DA0026C119 /* Cat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
+		044977DF1C4B33760026C119 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		044977E01C4B33760026C119 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 		04B55F371C4916BA004FEFE5 /* 面对对象-类和对象 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "面对对象-类和对象"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B55F3A1C4916BA004FEFE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -505,6 +508,8 @@
 				044977DA1C4B30D10026C119 /* Animal.m */,
 				044977DC1C4B30DA0026C119 /* Cat.h */,
 				044977DD1C4B30DA0026C119 /* Cat.m */,
+				044977DF1C4B33760026C119 /* Dog.h */,
+				044977E01C4B33760026C119 /* Dog.m */,
 				044977D41C4B2FF30026C119 /* main.m */,
 			);
 			path = initBasicClass;
@@ -1033,6 +1038,7 @@
 			files = (
 				044977DE1C4B30DA0026C119 /* Cat.m in Sources */,
 				044977D51C4B2FF30026C119 /* main.m in Sources */,
+				044977E11C4B33760026C119 /* Dog.m in Sources */,
 				044977DB1C4B30D10026C119 /* Animal.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
