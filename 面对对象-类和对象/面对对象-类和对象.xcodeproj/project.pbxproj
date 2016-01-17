@@ -39,6 +39,9 @@
 		044977DE1C4B30DA0026C119 /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = 044977DD1C4B30DA0026C119 /* Cat.m */; };
 		044977E11C4B33760026C119 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 044977E01C4B33760026C119 /* Dog.m */; };
 		044977E91C4B385B0026C119 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 044977E81C4B385B0026C119 /* main.m */; };
+		044977EF1C4B3A6F0026C119 /* Bird.m in Sources */ = {isa = PBXBuildFile; fileRef = 044977EE1C4B3A6F0026C119 /* Bird.m */; };
+		044977F21C4B3AA00026C119 /* MaQue.m in Sources */ = {isa = PBXBuildFile; fileRef = 044977F11C4B3AA00026C119 /* MaQue.m */; };
+		044977F51C4B3B860026C119 /* Ostrich.m in Sources */ = {isa = PBXBuildFile; fileRef = 044977F41C4B3B860026C119 /* Ostrich.m */; };
 		04B55F3B1C4916BA004FEFE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B55F3A1C4916BA004FEFE5 /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -266,6 +269,12 @@
 		044977E01C4B33760026C119 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 		044977E61C4B385B0026C119 /* 继承 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "继承"; sourceTree = BUILT_PRODUCTS_DIR; };
 		044977E81C4B385B0026C119 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		044977ED1C4B3A6F0026C119 /* Bird.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bird.h; sourceTree = "<group>"; };
+		044977EE1C4B3A6F0026C119 /* Bird.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bird.m; sourceTree = "<group>"; };
+		044977F01C4B3AA00026C119 /* MaQue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaQue.h; sourceTree = "<group>"; };
+		044977F11C4B3AA00026C119 /* MaQue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaQue.m; sourceTree = "<group>"; };
+		044977F31C4B3B860026C119 /* Ostrich.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ostrich.h; sourceTree = "<group>"; };
+		044977F41C4B3B860026C119 /* Ostrich.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ostrich.m; sourceTree = "<group>"; };
 		04B55F371C4916BA004FEFE5 /* 面对对象-类和对象 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "面对对象-类和对象"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B55F3A1C4916BA004FEFE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -541,6 +550,12 @@
 		044977E71C4B385B0026C119 /* 继承 */ = {
 			isa = PBXGroup;
 			children = (
+				044977ED1C4B3A6F0026C119 /* Bird.h */,
+				044977EE1C4B3A6F0026C119 /* Bird.m */,
+				044977F01C4B3AA00026C119 /* MaQue.h */,
+				044977F11C4B3AA00026C119 /* MaQue.m */,
+				044977F31C4B3B860026C119 /* Ostrich.h */,
+				044977F41C4B3B860026C119 /* Ostrich.m */,
 				044977E81C4B385B0026C119 /* main.m */,
 			);
 			path = "继承";
@@ -1101,6 +1116,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				044977F51C4B3B860026C119 /* Ostrich.m in Sources */,
+				044977F21C4B3AA00026C119 /* MaQue.m in Sources */,
+				044977EF1C4B3A6F0026C119 /* Bird.m in Sources */,
 				044977E91C4B385B0026C119 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
