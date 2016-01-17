@@ -43,6 +43,8 @@
 		044977F21C4B3AA00026C119 /* MaQue.m in Sources */ = {isa = PBXBuildFile; fileRef = 044977F11C4B3AA00026C119 /* MaQue.m */; };
 		044977F51C4B3B860026C119 /* Ostrich.m in Sources */ = {isa = PBXBuildFile; fileRef = 044977F41C4B3B860026C119 /* Ostrich.m */; };
 		044977FD1C4B416B0026C119 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 044977FC1C4B416B0026C119 /* main.m */; };
+		044978031C4B45FC0026C119 /* Base.m in Sources */ = {isa = PBXBuildFile; fileRef = 044978021C4B45FC0026C119 /* Base.m */; };
+		044978061C4B465B0026C119 /* SubClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 044978051C4B465B0026C119 /* SubClass.m */; };
 		04B55F3B1C4916BA004FEFE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B55F3A1C4916BA004FEFE5 /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -287,6 +289,10 @@
 		044977F41C4B3B860026C119 /* Ostrich.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ostrich.m; sourceTree = "<group>"; };
 		044977FA1C4B416B0026C119 /* 多态 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "多态"; sourceTree = BUILT_PRODUCTS_DIR; };
 		044977FC1C4B416B0026C119 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		044978011C4B45FC0026C119 /* Base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base.h; sourceTree = "<group>"; };
+		044978021C4B45FC0026C119 /* Base.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base.m; sourceTree = "<group>"; };
+		044978041C4B465B0026C119 /* SubClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubClass.h; sourceTree = "<group>"; };
+		044978051C4B465B0026C119 /* SubClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubClass.m; sourceTree = "<group>"; };
 		04B55F371C4916BA004FEFE5 /* 面对对象-类和对象 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "面对对象-类和对象"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B55F3A1C4916BA004FEFE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -583,6 +589,10 @@
 		044977FB1C4B416B0026C119 /* 多态 */ = {
 			isa = PBXGroup;
 			children = (
+				044978011C4B45FC0026C119 /* Base.h */,
+				044978021C4B45FC0026C119 /* Base.m */,
+				044978041C4B465B0026C119 /* SubClass.h */,
+				044978051C4B465B0026C119 /* SubClass.m */,
 				044977FC1C4B416B0026C119 /* main.m */,
 			);
 			path = "多态";
@@ -1177,6 +1187,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				044978061C4B465B0026C119 /* SubClass.m in Sources */,
+				044978031C4B45FC0026C119 /* Base.m in Sources */,
 				044977FD1C4B416B0026C119 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
