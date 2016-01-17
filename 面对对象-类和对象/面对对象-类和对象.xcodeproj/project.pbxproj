@@ -46,6 +46,7 @@
 		044978031C4B45FC0026C119 /* Base.m in Sources */ = {isa = PBXBuildFile; fileRef = 044978021C4B45FC0026C119 /* Base.m */; };
 		044978061C4B465B0026C119 /* SubClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 044978051C4B465B0026C119 /* SubClass.m */; };
 		0449780E1C4B4A740026C119 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0449780D1C4B4A740026C119 /* main.m */; };
+		044978191C4B4D290026C119 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 044978181C4B4D290026C119 /* main.m */; };
 		04B55F3B1C4916BA004FEFE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B55F3A1C4916BA004FEFE5 /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -215,6 +216,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		044978141C4B4D280026C119 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		04B55F351C4916BA004FEFE5 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -305,6 +315,8 @@
 		044978051C4B465B0026C119 /* SubClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubClass.m; sourceTree = "<group>"; };
 		0449780B1C4B4A740026C119 /* *指针变量的强制类型转换 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "*指针变量的强制类型转换"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0449780D1C4B4A740026C119 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		044978161C4B4D280026C119 /* *判断指针类型的实际类型 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "*判断指针类型的实际类型"; sourceTree = BUILT_PRODUCTS_DIR; };
+		044978181C4B4D290026C119 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04B55F371C4916BA004FEFE5 /* 面对对象-类和对象 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "面对对象-类和对象"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B55F3A1C4916BA004FEFE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -423,6 +435,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		044978081C4B4A740026C119 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044978131C4B4D280026C119 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -625,6 +644,14 @@
 			path = "*指针变量的强制类型转换";
 			sourceTree = "<group>";
 		};
+		044978171C4B4D290026C119 /* *判断指针类型的实际类型 */ = {
+			isa = PBXGroup;
+			children = (
+				044978181C4B4D290026C119 /* main.m */,
+			);
+			path = "*判断指针类型的实际类型";
+			sourceTree = "<group>";
+		};
 		04B55F2E1C4916BA004FEFE5 = {
 			isa = PBXGroup;
 			children = (
@@ -646,6 +673,7 @@
 				044977E71C4B385B0026C119 /* 继承 */,
 				044977FB1C4B416B0026C119 /* 多态 */,
 				0449780C1C4B4A740026C119 /* *指针变量的强制类型转换 */,
+				044978171C4B4D290026C119 /* *判断指针类型的实际类型 */,
 				04B55F381C4916BA004FEFE5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -671,6 +699,7 @@
 				044977E61C4B385B0026C119 /* 继承 */,
 				044977FA1C4B416B0026C119 /* 多态 */,
 				0449780B1C4B4A740026C119 /* *指针变量的强制类型转换 */,
+				044978161C4B4D280026C119 /* *判断指针类型的实际类型 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -976,6 +1005,23 @@
 			productReference = 0449780B1C4B4A740026C119 /* *指针变量的强制类型转换 */;
 			productType = "com.apple.product-type.tool";
 		};
+		044978151C4B4D280026C119 /* *判断指针类型的实际类型 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0449781A1C4B4D290026C119 /* Build configuration list for PBXNativeTarget "*判断指针类型的实际类型" */;
+			buildPhases = (
+				044978121C4B4D280026C119 /* Sources */,
+				044978131C4B4D280026C119 /* Frameworks */,
+				044978141C4B4D280026C119 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "*判断指针类型的实际类型";
+			productName = "*判断指针类型的实际类型";
+			productReference = 044978161C4B4D280026C119 /* *判断指针类型的实际类型 */;
+			productType = "com.apple.product-type.tool";
+		};
 		04B55F361C4916BA004FEFE5 /* 面对对象-类和对象 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04B55F3E1C4916BA004FEFE5 /* Build configuration list for PBXNativeTarget "面对对象-类和对象" */;
@@ -1053,6 +1099,9 @@
 					0449780A1C4B4A740026C119 = {
 						CreatedOnToolsVersion = 7.2;
 					};
+					044978151C4B4D280026C119 = {
+						CreatedOnToolsVersion = 7.2;
+					};
 					04B55F361C4916BA004FEFE5 = {
 						CreatedOnToolsVersion = 7.2;
 					};
@@ -1088,6 +1137,7 @@
 				044977E51C4B385B0026C119 /* 继承 */,
 				044977F91C4B416B0026C119 /* 多态 */,
 				0449780A1C4B4A740026C119 /* *指针变量的强制类型转换 */,
+				044978151C4B4D280026C119 /* *判断指针类型的实际类型 */,
 			);
 		};
 /* End PBXProject section */
@@ -1248,6 +1298,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0449780E1C4B4A740026C119 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044978121C4B4D280026C119 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044978191C4B4D290026C119 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1500,6 +1558,20 @@
 			};
 			name = Release;
 		};
+		0449781B1C4B4D290026C119 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0449781C1C4B4D290026C119 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		04B55F3C1C4916BA004FEFE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1742,6 +1814,14 @@
 			buildConfigurations = (
 				044978101C4B4A740026C119 /* Debug */,
 				044978111C4B4A740026C119 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0449781A1C4B4D290026C119 /* Build configuration list for PBXNativeTarget "*判断指针类型的实际类型" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0449781B1C4B4D290026C119 /* Debug */,
+				0449781C1C4B4D290026C119 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
