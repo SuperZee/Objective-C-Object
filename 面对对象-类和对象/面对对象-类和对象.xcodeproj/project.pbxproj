@@ -34,6 +34,9 @@
 		043A55B41C4A6E91005BF3EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A55B31C4A6E91005BF3EC /* main.m */; };
 		043A55BA1C4A72DE005BF3EC /* ItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A55B91C4A72DE005BF3EC /* ItemView.m */; };
 		043A55BD1C4A72E7005BF3EC /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A55BC1C4A72E7005BF3EC /* Item.m */; };
+		044977D51C4B2FF30026C119 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 044977D41C4B2FF30026C119 /* main.m */; };
+		044977DB1C4B30D10026C119 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 044977DA1C4B30D10026C119 /* Animal.m */; };
+		044977DE1C4B30DA0026C119 /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = 044977DD1C4B30DA0026C119 /* Cat.m */; };
 		04B55F3B1C4916BA004FEFE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B55F3A1C4916BA004FEFE5 /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -167,6 +170,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		044977D01C4B2FF30026C119 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		04B55F351C4916BA004FEFE5 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -233,6 +245,12 @@
 		043A55B91C4A72DE005BF3EC /* ItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemView.m; sourceTree = "<group>"; };
 		043A55BB1C4A72E7005BF3EC /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
 		043A55BC1C4A72E7005BF3EC /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		044977D21C4B2FF30026C119 /* initBasicClass */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = initBasicClass; sourceTree = BUILT_PRODUCTS_DIR; };
+		044977D41C4B2FF30026C119 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		044977D91C4B30D10026C119 /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		044977DA1C4B30D10026C119 /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		044977DC1C4B30DA0026C119 /* Cat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		044977DD1C4B30DA0026C119 /* Cat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
 		04B55F371C4916BA004FEFE5 /* 面对对象-类和对象 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "面对对象-类和对象"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B55F3A1C4916BA004FEFE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -323,6 +341,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		043A55AE1C4A6E91005BF3EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044977CF1C4B2FF30026C119 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -473,6 +498,18 @@
 			path = "KVO键值监听";
 			sourceTree = "<group>";
 		};
+		044977D31C4B2FF30026C119 /* initBasicClass */ = {
+			isa = PBXGroup;
+			children = (
+				044977D91C4B30D10026C119 /* Animal.h */,
+				044977DA1C4B30D10026C119 /* Animal.m */,
+				044977DC1C4B30DA0026C119 /* Cat.h */,
+				044977DD1C4B30DA0026C119 /* Cat.m */,
+				044977D41C4B2FF30026C119 /* main.m */,
+			);
+			path = initBasicClass;
+			sourceTree = "<group>";
+		};
 		04B55F2E1C4916BA004FEFE5 = {
 			isa = PBXGroup;
 			children = (
@@ -490,6 +527,7 @@
 				043A55921C4A3F31005BF3EC /* @peoperty中retain的使用 */,
 				043A55A11C4A57D3005BF3EC /* KVC和KVO的使用 */,
 				043A55B21C4A6E91005BF3EC /* KVO键值监听 */,
+				044977D31C4B2FF30026C119 /* initBasicClass */,
 				04B55F381C4916BA004FEFE5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -511,6 +549,7 @@
 				043A55911C4A3F31005BF3EC /* @peoperty中retain的使用 */,
 				043A55A01C4A57D3005BF3EC /* KVC和KVO的使用 */,
 				043A55B11C4A6E91005BF3EC /* KVO键值监听 */,
+				044977D21C4B2FF30026C119 /* initBasicClass */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -748,6 +787,23 @@
 			productReference = 043A55B11C4A6E91005BF3EC /* KVO键值监听 */;
 			productType = "com.apple.product-type.tool";
 		};
+		044977D11C4B2FF30026C119 /* initBasicClass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044977D81C4B2FF30026C119 /* Build configuration list for PBXNativeTarget "initBasicClass" */;
+			buildPhases = (
+				044977CE1C4B2FF30026C119 /* Sources */,
+				044977CF1C4B2FF30026C119 /* Frameworks */,
+				044977D01C4B2FF30026C119 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = initBasicClass;
+			productName = initBasicClass;
+			productReference = 044977D21C4B2FF30026C119 /* initBasicClass */;
+			productType = "com.apple.product-type.tool";
+		};
 		04B55F361C4916BA004FEFE5 /* 面对对象-类和对象 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04B55F3E1C4916BA004FEFE5 /* Build configuration list for PBXNativeTarget "面对对象-类和对象" */;
@@ -813,6 +869,9 @@
 					043A55B01C4A6E91005BF3EC = {
 						CreatedOnToolsVersion = 7.2;
 					};
+					044977D11C4B2FF30026C119 = {
+						CreatedOnToolsVersion = 7.2;
+					};
 					04B55F361C4916BA004FEFE5 = {
 						CreatedOnToolsVersion = 7.2;
 					};
@@ -844,6 +903,7 @@
 				043A55901C4A3F31005BF3EC /* @peoperty中retain的使用 */,
 				043A559F1C4A57D3005BF3EC /* KVC和KVO的使用 */,
 				043A55B01C4A6E91005BF3EC /* KVO键值监听 */,
+				044977D11C4B2FF30026C119 /* initBasicClass */,
 			);
 		};
 /* End PBXProject section */
@@ -964,6 +1024,16 @@
 				043A55BD1C4A72E7005BF3EC /* Item.m in Sources */,
 				043A55B41C4A6E91005BF3EC /* main.m in Sources */,
 				043A55BA1C4A72DE005BF3EC /* ItemView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044977CE1C4B2FF30026C119 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044977DE1C4B30DA0026C119 /* Cat.m in Sources */,
+				044977D51C4B2FF30026C119 /* main.m in Sources */,
+				044977DB1C4B30D10026C119 /* Animal.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1160,6 +1230,20 @@
 			};
 			name = Release;
 		};
+		044977D61C4B2FF30026C119 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		044977D71C4B2FF30026C119 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		04B55F3C1C4916BA004FEFE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1326,6 +1410,7 @@
 				043A556D1C4A2F3E005BF3EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		043A55791C4A3530005BF3EC /* Build configuration list for PBXNativeTarget "合成存取方法(setter getter)" */ = {
 			isa = XCConfigurationList;
@@ -1334,6 +1419,7 @@
 				043A557B1C4A3530005BF3EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		043A55871C4A3BB0005BF3EC /* Build configuration list for PBXNativeTarget "@property可以添加的几个参数" */ = {
 			isa = XCConfigurationList;
@@ -1342,6 +1428,7 @@
 				043A55891C4A3BB0005BF3EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		043A55951C4A3F31005BF3EC /* Build configuration list for PBXNativeTarget "@peoperty中retain的使用" */ = {
 			isa = XCConfigurationList;
@@ -1350,6 +1437,7 @@
 				043A55971C4A3F31005BF3EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		043A55A41C4A57D3005BF3EC /* Build configuration list for PBXNativeTarget "KVC和KVO的使用" */ = {
 			isa = XCConfigurationList;
@@ -1358,12 +1446,22 @@
 				043A55A61C4A57D3005BF3EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		043A55B51C4A6E91005BF3EC /* Build configuration list for PBXNativeTarget "KVO键值监听" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				043A55B61C4A6E91005BF3EC /* Debug */,
 				043A55B71C4A6E91005BF3EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		044977D81C4B2FF30026C119 /* Build configuration list for PBXNativeTarget "initBasicClass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044977D61C4B2FF30026C119 /* Debug */,
+				044977D71C4B2FF30026C119 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
